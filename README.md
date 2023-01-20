@@ -52,18 +52,12 @@ Web Browser
 ## Credits
 Special thanks to
 1. Rajat Upadhyaya
-for providing the logic
-```
-https://python.plainenglish.io/make-your-advice-generator-using-python-46a811e9d44d
-```
+for providing the logic<br>
+[Article's Link](https://python.plainenglish.io/make-your-advice-generator-using-python-46a811e9d44d)<br><br>
 2. Advice slip API
-for providing advices
-```
-https://api.adviceslip.com/advice
-```
+for providing advices<br>
+[API's Link](https://api.adviceslip.com/advice)<br><br>
 3. Sara Mazal Web & Alexander Litvinovich
-for providing HTML CSS basic templates
-```
-https://codepen.io/Saramazal/pen/LYyywNb
-https://codepen.io/ale_litvinovich/pen/YzzXQGP
-```
+for providing HTML CSS basic templates<br>
+[Sara's Work](https://codepen.io/Saramazal/pen/LYyywNb)<br>
+[Alexander's Work](https://codepen.io/ale_litvinovich/pen/YzzXQGP)
