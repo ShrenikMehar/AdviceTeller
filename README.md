@@ -20,7 +20,20 @@ AdviceTeller
 static
 templates
 ```
-<b>Step 3.</b> Open CMD in root directory and enter following command <br>
+<b>Step 3.</b> Add this in settings.py <br>
+```
+from pathlib import Path
+import os
+BASE_DIR = Path(__file__).resolve().parent.parent #Add this at top of the code
+
+'DIRS': [BASE_DIR,"templates"], #Update this in 'templates' list
+
+STATIC_URL = 'static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static/"),
+) #Add this just above the last code line
+```
+<b>Step 4.</b> Open CMD in root directory and enter following command <br>
 ```
 python manage.py runserver
 ```
@@ -28,7 +41,7 @@ If above command doesn't worked, try using
 ```
 python3 manage.py runserver
 ```
-<b>Step 4.</b> Open any web browser and type following address
+<b>Step 5.</b> Open any web browser and type following address
 ```
 127.0.0.1:8000
 ```
